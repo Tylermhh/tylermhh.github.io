@@ -24,6 +24,28 @@
                     <p>Hi! My email is tyler.hlaing</p>
                 </div>
             </div>
+
+            <form>
+                <!--This is a comment in HTML. It lets you write text that
+                won't be rendered in the webpage.-->
+                <label for="name">Name: </label>
+                <input type="text" id="name" name="name" placeholder="Name" required />
+                <br><br>
+                <!--The "for" attribute references the "name" attribute in <input>.
+                The "name" attribute is necessary once we start tying in JavaScript-->
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Email" />
+                <br><br>
+                <label for="Message">Comments</label>
+                <textarea
+                  id="Message"
+                  name="Message"
+                  placeholder="Message"
+                  required
+                ></textarea>
+                <br><br>
+                <input type="submit" value="Submit" />
+            </form>
         </main>
         <footer> © 2023 Tylermhh Website | All Rights Reserved</footer>
     </body>
