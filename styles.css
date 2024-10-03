@@ -4,6 +4,7 @@
     --cg-blue: rgb(36, 94, 255);
     --cg-grey: rgb(243, 243, 243);
     --cg-white: rgb(255, 255, 255);
+    --darkslate-gray: rgb(47,79, 79);
   }
   
   html {
@@ -34,7 +35,7 @@
     align-items: center;
     text-align: center;
   
-    background-color: darkslategray;
+    background-color: var(--darkslate-gray);
     color: var(--cg-white);
     padding: 0px 0px;
   
@@ -226,7 +227,7 @@
     gap: 20px; /* Space between the columns */
     padding: 20px;
     margin: 20px;
-    background-color: darkslategray;
+    background-color: var(--darkslate-gray);
     border: 1px solid #ccc;
     border-radius: 5px;
     /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
